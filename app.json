@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Ponto Certo",
+    "slug": "ponto-certo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": [
+      ["expo-camera", { "cameraPermission": "Permita que o Ponto Certo tire uma foto para comprovar a marcação de ponto." }]
+    ],
+    "android": { "package": "br.com.pontocerto.app" },
+    "ios": { "supportsTablet": true, "bundleIdentifier": "br.com.pontocerto.app" }
+  }
+}
